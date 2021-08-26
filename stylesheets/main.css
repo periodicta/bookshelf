@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://textures.world/wp-content/uploads/2018/10/Dark-Wood-Seamless-Background-Texture-1-copy.jpg);
+}
+
+.book {
+  height: 200px;
+  color: red;
+  background-color: white;
+  font-size: 12;
+  font-weight: 700;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5%;
+}
+.vert {
+  writing-mode: vertical-rl;
+}
+.shelf {
+  display:table;
+  border-collapse:separate;
+  border-spacing:5px;
+}
+.shelfrow {
+  display:table-row;
+}
+
+#hp1 {
+  background-color: #8C645A;
+  color: #F1D873;
+  width: 41;
+}
+#hp2 {
+  background-color: #945561;
+  color: #E2D5CE;
+  width: 44;
+}
+#hp3 {
+  background-color: #645957;
+  color: #1A3F20;
+  width: 54;
+}
+#hp4 {
+  background-color: #5F503E;
+  color: #BBC67E;
+  width: 85;
+}
+#hp5 {
+  background-color: #384071;
+  color: #B4CDF6;
+  width: 100;
+}
+#hp6 {
+  background-color: #283424;
+  color: #9181A0;
+  width: 77;
+}
+#hp7 {
+  background-color: #DB9756;
+  color: #523027;
+  width: 88;
+}
