@@ -3,16 +3,16 @@ body {
 }
 
 .shelf {
-  height: 200;
-  font-size: 12;
+  height: 200px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
   display: flex;
 }
 .book {
   margin: 0 3px;
-  padding-top: 20;
-  padding-bottom: 20;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,62 +22,59 @@ body {
 }
 .horiz {
   writing-mode: horizontal-tb;
-  font-size: 12;
-}
-.new {
-  vertical-align: top;
+  font-size: 12px;
 }
 
 #hp1 {
   background-color: #8C645A;
   color: #F1D873;
-  width: 41;
+  width: 41px;
 }
 #hp2 {
   background-color: #945561;
   color: #E2D5CE;
-  width: 44;
+  width: 44px;
 }
 #hp3 {
   background-color: #645957;
   color: #9CA48C;
-  width: 54;
+  width: 54px;
 }
 #hp4 {
   background-color: #5F503E;
   color: #BBC67E;
-  width: 85;
+  width: 85px;
 }
 #hp5 {
   background-color: #384071;
   color: #B4CDF6;
-  width: 100;
+  width: 100px;
 }
 #hp6 {
   background-color: #283424;
   color: #9181A0;
-  width: 77;
+  width: 77px;
 }
 #hp7 {
   background-color: #DB9756;
   color: #523027;
-  width: 88;
+  width: 88px;
 }
 
 #lotr1 {
   background-color: #050505;
   color: #CABD58;
-  width: 43;
+  width: 43px;
 }
 #lotr2 {
   background-color: #050404;
   color: #B77645;
-  width: 35;
-  font-size: 16;
+  width: 35px;
+  font-size: 16px;
 }
 #lotr3 {
   background-color: #060605;
   color: #72BA49;
-  width: 43;
-  font-size: 14;
+  width: 43px;
+  font-size: 14px;
 }
