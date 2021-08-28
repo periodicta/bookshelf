@@ -28,53 +28,71 @@ body {
 #hp1 {
   background-color: #8C645A;
   color: #F1D873;
-  width: 41px;
+  width: 36px;
 }
 #hp2 {
   background-color: #945561;
   color: #E2D5CE;
-  width: 44px;
+  width: 39px;
 }
 #hp3 {
   background-color: #645957;
   color: #9CA48C;
-  width: 54px;
+  width: 49px;
 }
 #hp4 {
   background-color: #5F503E;
   color: #BBC67E;
-  width: 85px;
+  width: 80px;
 }
 #hp5 {
   background-color: #384071;
   color: #B4CDF6;
-  width: 100px;
+  width: 95px;
 }
 #hp6 {
   background-color: #283424;
   color: #9181A0;
-  width: 77px;
+  width: 72px;
 }
 #hp7 {
   background-color: #DB9756;
   color: #523027;
-  width: 88px;
+  width: 83px;
 }
 
 #lotr1 {
   background-color: #050505;
   color: #CABD58;
-  width: 43px;
+  width: 48px;
 }
 #lotr2 {
   background-color: #050404;
   color: #B77645;
-  width: 35px;
+  width: 40px;
   font-size: 16px;
 }
 #lotr3 {
   background-color: #060605;
   color: #72BA49;
-  width: 43px;
+  width: 48px;
   font-size: 14px;
+}
+#lotr0 {
+  background-color: #06090A;
+  color: #BF845B;
+  width: 35px;
+  font-size: 22px;
+}
+#lotra {
+  background-color: #050505;
+  color: #188FC9;
+  width: 43px;
+  font-size: 16px;
+}
+#lotrb {
+  background-color: #050505;
+  color: #BD9F61;
+  width: 43px;
+  font-size: 16px;
 }
