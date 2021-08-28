@@ -80,105 +80,111 @@ body {
 #hp1 {
   background-color: #8C645A;
   color: #F1D873;
-  width: 39px;
+  width: 41px;
 }
 #hp2 {
   background-color: #945561;
   color: #E2D5CE;
-  width: 42px;
+  width: 48px;
 }
 #hp3 {
   background-color: #645957;
   color: #9CA48C;
-  width: 53px;
+  width: 57px;
 }
 #hp4 {
   background-color: #5F503E;
   color: #BBC67E;
-  width: 95px;
+  width: 94px;
 }
 #hp5 {
   background-color: #384071;
   color: #B4CDF6;
-  width: 129px;
-  font-size: 15px;
+  width: 132px;
+  font-size: 20px;
 }
 #hp6 {
   background-color: #283424;
   color: #9181A0;
-  width: 85px;
+  width: 93px;
 }
 #hp7 {
   background-color: #DB9756;
   color: #523027;
-  width: 99px;
+  width: 94px;
   font-size: 15px;
 }
 
 #lotr1 {
   background-color: #050505;
   color: #CABD58;
-  width: 60px;
+  width: 86px;
   font-size: 15px;
 }
 #lotr2 {
   background-color: #050404;
   color: #B77645;
-  width: 48px;
+  width: 76px;
   font-size: 15px;
 }
 #lotr3 {
   background-color: #060605;
   color: #72BA49;
-  width: 71px;
+  width: 80px;
   font-size: 20px;
 }
 #lotr0 {
   background-color: #06090A;
   color: #BF845B;
-  width: 45px;
+  width: 48px;
   font-size: 20px;
 }
 #lotra {
   background-color: #050505;
   color: #188FC9;
-  width: 58px;
+  width: 64px;
   font-size: 15px;
 }
 #lotrb {
   background-color: #050505;
   color: #BD9F61;
-  width: 72px;
+  width: 60px;
   font-size: 15px;
 }
 
 #dune1 {
   background-color: #090605;
   color: #D5492A;
-  width: 106px;
+  width: 91px;
   font-size: 30px;
 }
 #dune2 {
   background-color: #1A477F;
   color: #E6928E;
-  width: 53px;
+  width: 39px;
   font-size: 15px;
 }
 #dune3 {
   background-color: #EDB982;
   color: #963B68;
-  width: 94px;
-  font-size: 20px;
+  width: 73px;
+  font-size: 15px;
 }
 #dune4 {
   background-color: #060706;
   color: #4E7D63;
-  width: 91px;
-  font-size: 20px;
+  width: 69px;
+  font-size: 15px;
 }
 #dune5 {
-  background-color: #060706;
-  color: #4E7D63;
-  width: 103px;
-  font-size: 12px;
+  background-color: #181D21;
+  color: #78344E;
+  width: 79px;
+  font-size: 20px;
+}
+#dune6 {
+  background-color: #161D15;
+  color: #7A917A;
+  width: 73px;
+  font-size: 15px;
 }
