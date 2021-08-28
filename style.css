@@ -12,14 +12,40 @@ body {
   display: flex;
   flex-flow: wrap;
 }
-.book {
+.grid {
   margin: 0 3px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: grid;
+  grid-template-rows: 55px 110px 50px;
+  background-color: #8C645A;
+  color: #F1D873;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+.num {
+  grid-column: 1/1;
+  grid-row: 1/1;
   display: flex;
-  flex-flow: row;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
+}
+.title {
+  grid-column: 1/1;
+  grid-row: 2/2;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.author {
+  grid-column: 1/1;
+  grid-row: 3/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 .break {
   flex-basis: 100%;
@@ -46,10 +72,9 @@ body {
 }
 .horiz {
   writing-mode: horizontal-tb;
-  font-size: 12px;
 }
-.top {
-  align-self: top;
+.grid {
+  
 }
 
 #hp1 {
@@ -76,6 +101,7 @@ body {
   background-color: #384071;
   color: #B4CDF6;
   width: 129px;
+  font-size: 15px;
 }
 #hp6 {
   background-color: #283424;
@@ -86,46 +112,55 @@ body {
   background-color: #DB9756;
   color: #523027;
   width: 99px;
+  font-size: 15px;
 }
 
 #lotr1 {
   background-color: #050505;
   color: #CABD58;
   width: 60px;
-  font-size: 13px;
+  font-size: 15px;
 }
 #lotr2 {
   background-color: #050404;
   color: #B77645;
   width: 48px;
-  font-size: 16px;
+  font-size: 15px;
 }
 #lotr3 {
   background-color: #060605;
   color: #72BA49;
   width: 71px;
-  font-size: 15px;
+  font-size: 20px;
 }
 #lotr0 {
   background-color: #06090A;
   color: #BF845B;
   width: 45px;
-  font-size: 21px;
+  font-size: 20px;
 }
 #lotra {
   background-color: #050505;
   color: #188FC9;
   width: 58px;
-  font-size: 16px;
+  font-size: 15px;
 }
 #lotrb {
   background-color: #050505;
   color: #BD9F61;
   width: 72px;
-  font-size: 16px;
+  font-size: 15px;
 }
+
 #dune1 {
   background-color: #090605;
   color: #D5492A;
   width: 106px;
+  font-size: 30px;
+}
+#dune2 {
+  background-color: #1A477F;
+  color: #E6928E;
+  width: 53px;
+  font-size: 15px;
 }
