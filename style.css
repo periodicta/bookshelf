@@ -29,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 15px;
 }
 .title {
   grid-column: 1/1;
@@ -73,9 +73,6 @@ body {
 .horiz {
   writing-mode: horizontal-tb;
 }
-.grid {
-  
-}
 
 #hp1 {
   background-color: #8C645A;
@@ -114,6 +111,30 @@ body {
   width: 94px;
   font-size: 15px;
 }
+#hp8 {
+  background-color: #E3B952;
+  color: #2D1E13;
+  width: 42px;
+  font-size: 12px;
+}
+#hpa {
+  background-color: #862922;
+  color: #BCB982;
+  width: 16px;
+  font-size: 9px;
+}
+#hpb {
+  background-color: #364427;
+  color: #D0A955;
+  width: 10px;
+  font-size: 6px;
+}
+#hpc {
+  background-color: #2B539E;
+  color: #DACE69;
+  width: 14px;
+  font-size: 9px;
+}
 
 #lotr1 {
   background-color: #050505;
@@ -150,6 +171,24 @@ body {
   color: #BD9F61;
   width: 60px;
   font-size: 15px;
+}
+#lotrc {
+  background-color: #2A2924;
+  color: #E7DEC9;
+  width: 36px;
+  font-size: 12px;
+}
+#lotrd {
+  background-color: #222728;
+  color: #D0CBC2;
+  width: 32px;
+  font-size: 12px;
+}
+#lotre {
+  background-color: #21282C;
+  color: #A2ACBC;
+  width: 36px;
+  font-size: 12px;
 }
 
 #dune1 {
