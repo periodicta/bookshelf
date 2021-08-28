@@ -4,18 +4,42 @@ body {
 
 .shelf {
   height: 200px;
+  max-height: 200px;
+  min-height: 200px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
   display: flex;
+  flex-flow: wrap;
 }
 .book {
   margin: 0 3px;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
+  flex-flow: row;
   align-items: center;
   justify-content: center;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+  margin-top: 10px;
+}
+.cat {
+  margin: 0 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222233;
+  color: orange;
+  font-size: 20px;
+  width: 150px
+}
+.shelfrow {
+  display: table-row;
 }
 .vert {
   writing-mode: vertical-rl;
@@ -24,75 +48,84 @@ body {
   writing-mode: horizontal-tb;
   font-size: 12px;
 }
+.top {
+  align-self: top;
+}
 
 #hp1 {
   background-color: #8C645A;
   color: #F1D873;
-  width: 36px;
+  width: 39px;
 }
 #hp2 {
   background-color: #945561;
   color: #E2D5CE;
-  width: 39px;
+  width: 42px;
 }
 #hp3 {
   background-color: #645957;
   color: #9CA48C;
-  width: 49px;
+  width: 53px;
 }
 #hp4 {
   background-color: #5F503E;
   color: #BBC67E;
-  width: 80px;
+  width: 95px;
 }
 #hp5 {
   background-color: #384071;
   color: #B4CDF6;
-  width: 95px;
+  width: 129px;
 }
 #hp6 {
   background-color: #283424;
   color: #9181A0;
-  width: 72px;
+  width: 85px;
 }
 #hp7 {
   background-color: #DB9756;
   color: #523027;
-  width: 83px;
+  width: 99px;
 }
 
 #lotr1 {
   background-color: #050505;
   color: #CABD58;
-  width: 48px;
+  width: 60px;
+  font-size: 13px;
 }
 #lotr2 {
   background-color: #050404;
   color: #B77645;
-  width: 40px;
+  width: 48px;
   font-size: 16px;
 }
 #lotr3 {
   background-color: #060605;
   color: #72BA49;
-  width: 48px;
-  font-size: 14px;
+  width: 71px;
+  font-size: 15px;
 }
 #lotr0 {
   background-color: #06090A;
   color: #BF845B;
-  width: 35px;
-  font-size: 22px;
+  width: 45px;
+  font-size: 21px;
 }
 #lotra {
   background-color: #050505;
   color: #188FC9;
-  width: 43px;
+  width: 58px;
   font-size: 16px;
 }
 #lotrb {
   background-color: #050505;
   color: #BD9F61;
-  width: 43px;
+  width: 72px;
   font-size: 16px;
+}
+#dune1 {
+  background-color: #090605;
+  color: #D5492A;
+  width: 106px;
 }
