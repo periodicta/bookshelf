@@ -11,6 +11,7 @@ body {
   text-align: center;
   display: flex;
   flex-flow: wrap;
+  row-gap: 10px;
 }
 .grid {
   margin: 0 3px;
